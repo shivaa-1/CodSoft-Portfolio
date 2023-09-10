@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shivam Sharma-Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+</head>
+<body>
+
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h2 class="name">Shivam</h2>
+                <ul id="sideMenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#workAndProjects">Work/Projects</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#contact">Contact me</a></li>
+                    <i class="uil uil-mutliply" onclick="closeMenu()"></i>   
+                </ul>
+                <i class="uil uil-apps" onclick="openMenu()"></i>   
+            </nav>
+
+            <div class="header-text">
+                <h1>Hi....! <br> I am <span>Shivam </span> Sharma</h1>
+                <p>Full Stack Developer</p>
+            </div>
+
+            <!-- //Social media icon  -->
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/shiva-sharma-2-1-1-0-/"><i class="uil uil-linkedin"></i></a>
+                <a href="https://github.com/shivaa-1"><i class="uil uil-github"></i></a>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- //About  -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/profilepic.jpg" alt="">
+                    <a href="https://drive.google.com/file/d/16bYho15yKs3Whjop7gbX5T2p4wJEc8JX/view" class="btn btn1">Resume</a>
+                </div>
+
+                <div class="about-col-2">
+                   <h1 class="sub-title">About Me</h1>
+                   <p>A lifetime Learner, Team Player, Hard Working with hands on knowledge  in demanding
+                    full Stack Technologies such as React.js ,Node.js,Angular,Java,Python,Automation Testing,
+                    Devops and Cloud, Robot Framework and Backend Technologies Mongodb,Oracle,Node.js,DSA who 
+                    wants to upgrade skills and contribute to organization where my skills are recognized.
+                   </p>
+
+                   <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="openTab('certifications')">Certifications</p>
+                    <p class="tab-links" onclick="openTab('education')">Education</p>
+                    <p class="tab-links" onclick="openTab('achievements')">Achievements</p>
+                    <p class="tab-links" onclick="openTab('interests')">Interests</p>
+                   </div>
+
+                   <div class="tab-contents active-tab" id="certifications">
+
+                    <p>
+                        <ul>
+                            <li>
+                                <span>Lets Upgrade ReactJS Bootcamp</span><a href="https://verify.letsupgrade.in/certificate/LUERJSJUN123362"><i class="bi bi-link-45deg"></i></a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <span>Lets Upgrade HTML&CSS Bootcamp</span><a href="https://verify.letsupgrade.in/certificate/LUEHTMLJUN123396"><i class="bi bi-link-45deg"></i></a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <span>Lets Upgrade Postman Api Fundammentals Experts</span><a href="https://verify.letsupgrade.in/certificate/LUEPAFSJUL12327"><i class="bi bi-link-45deg"></i></a>
+                            </li>
+                        </ul>
+                    </p>
+                </div>
+
+                <div class="tab-contents" id="education">
+                    <p>
+                        <ul>
+                            <li>
+                                <span>
+                                    MDU Rohtak</span>,India<br/>July 2022<br/>Bachelor's of Computer Application                                
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <span>
+                                    Modern School,Faridabad</span>,India<br/>July 2018<br/>XII - Non-Medical                                
+                            </li>
+                        </ul>
+                    </p>
+                </div>
+
+                <div class="tab-contents" id="achievements">
+                
+                    <ul>
+                        <li>
+                            <span>Chess Player Certified</span>State Level <br>
+                            April,2015
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="interests">
+                    <ul>
+                        <li>Travelling</li>
+                        <li>Teaching</li>
+                        <li>Development</li>
+                        <li>Reading Tech stuff</li>
+                    </ul>
+                
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Skills  -->
+<div id="skills">
+    <div class="container">
+        <h1 class="sub-title">Skills</h1>
+        <div class="skills-list">
+            <div class="skill">
+                <div style="background-color: orange; width: 70%;">HTML5</div>
+                <div style="background-color: white; width: 30%;">70%</div>
+            </div>
+
+            <div class="skill">
+                <div style="background-color: blue; width: 80%;">CSS</div>
+                <div style="background-color: white; width: 30%;">70%</div>
+            </div>
+
+            <div class="skill">
+                <div style="background-color: gold; width: 80%;">Javascript</div>
+                <div style="background-color: white; width: 30%;">70%</div>
+            </div>
+
+            <div class="skill">
+                <div style="background-color: rgb(255, 0, 115); width: 80%;">React.js</div>
+                <div style="background-color: white; width: 30%;">80%</div>
+            </div>
+            <div class="skill">
+                <div style="background-color: rgb(255, 51, 0); width: 80%;">NodeJs</div>
+                <div style="background-color: white; width: 30%;">70%</div>
+            </div>
+            <div class="skill">
+                <div style="background-color: greenyellow; width: 80%;">Express</div>
+                <div style="background-color: white; width: 30%;">70%</div>
+            </div>
+
+            <div class="skill">
+                <div style="background-color: rgb(46, 14, 163); width: 80%;">Mongodb</div>
+                <div style="background-color: white; width: 30%;">70%</div>
+            </div>
+
+            <div class="skill">
+                <div style="background-color: rgb(66, 163, 14); width: 80%;">Bootstrap</div>
+                <div style="background-color: white; width: 30%;">70%</div>
+            </div>
+
+            <div class="skill">
+                <div style="background-color: rgb(156, 135, 235); width: 80%;">MUI</div>
+                <div style="background-color: white; width: 30%;">70%</div>
+            </div>
+
+            <div class="skill">
+                <div style="background-color: rgb(14, 163, 54); width: 80%;">ReactStrap</div>
+                <div style="background-color: white; width: 30%;">70%</div>
+            </div>
+        </div>
+    </div>
+
+    <div style="margin-top: 20px">
+        <h1>Tools</h1>
+        <div class="tools">
+            <div class="tool" style="background-color:rgb(82, 74, 74) ;">Git</div>
+            <div class="tool" style="background-color:rgb(44, 52, 214) ;">Vscode</div>
+            <div class="tool" style="background-color:rgb(255, 102, 19) ;">postman</div>
+            <div class="tool" style="background-color:rgb(82, 74, 74) ;">ThunderClient</div>
+            <div class="tool" style="background-color:rgb(223, 127, 127) ;">Netlify</div>
+            <div class="tool" style="background-color:rgb(104, 247, 104) ;">Render</div>
+            <div class="tool" style="background-color:rgb(232, 161, 208) ;">Vercel</div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Work/Projects  -->
+<div id="workAndProjects">
+    <div class="container">
+        <h1 class="sub-title">My Work and Projects</h1>
+        <div class="wp-list">
+            <div class="wp">
+                <img src="https://tse4.mm.bing.net/th?id=OIP.M7dKAYt1If3EcTozi8dhJQAAAA&pid=Api&P=0&h=180" alt="">
+                <div class="layer">
+                    <h4>Calculator</h4>
+                    <em>Dec,2022-April,2023</em>
+                    <p>This is a Calculator App which performs all your calculations. </p>
+                    <div class="used">
+                        <span>HTML 5</span> <span>CSS</span>  <span>Javascript</span>
+                        <span>Bootstrap</span>
+                    </div>
+                    <div style="display: flex; justify-content: space-around; width: 100;">
+                        <a style="color: red;" href="https://scintillating-ganache-24bc51.netlify.app/" target="_blank"><i class="uil uil-link">Live</i></a>
+                        <a style="color: blue;" href="https://github.com/shivaa-1/Calculator.git" target="_blank"></a><i class="uil uil-github">Github</i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="wp">
+                <img src="https://tse3.mm.bing.net/th?id=OIP.xYMOSuu_hlnfCTDjlYSi-wHaGm&pid=Api&P=0&h=180" alt="">
+                <div class="layer">
+                    <h4>Movie App</h4>
+                    <em>Dec,2022-April,2023</em>
+                    <p>This is a Movie App </p>
+                    <div class="used">
+                        <span>Reactjs</span> <span>Bootstrap</span>  <span>Html 5</span>
+                        <span>Css</span>
+                    </div>
+                    <div style="display: flex; justify-content: space-around; width: 100;">
+                        <a style="color: red;" className="m-2 px-3" href="https://fascinating-bublanina-a3cc01.netlify.app/" target="_blank"><i class="uil uil-link">Live</i></a>
+                        <a style="color: blue;" className="m-2 px-3"  href="https://github.com/shivaa-1/firstreactlayout.git" target="_blank"><i class="uil uil-github">Github</i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="wp">
+                <img src="https://tse3.mm.bing.net/th?id=OIP.Xe3jIzNBdMxu9SBYzaWzwQHaFa&pid=Api&P=0&h=180" alt=""/>
+                <div class="layer">
+                    <h4>GITHUB APP</h4>
+                    <em>Dec,2022-April,2023</em>
+                    <p>This is a Github App which show all your repos and your profile. </p>
+                    <div class="used">
+                        <span>HTML 5</span> <span>CSS</span>  <span>Javascript</span>
+                        <span>Bootstrap</span>
+                    </div>
+                    <div style="display: flex; justify-content: space-around; width: 100;">
+                        <a style="color: red;" href="https://phenomenal-fenglisu-83eecb.netlify.app/" target="_blank"><i class="uil uil-link">Live</i></a>
+                        <a style="color: blue;" href="https://github.com/shivaa-1/Github-Api.git" target="_blank"><i class="uil uil-github">Github</i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="wp">
+                <img src="https://tse2.mm.bing.net/th?id=OIP.Dh3muF8_2eMJaCTjOhyVPAHaDk&pid=Api&P=0&h=180" alt="">
+                <div class="layer">
+                    <h4>CRUD App</h4>
+                    <em>Dec,2022-April,2023</em>
+                    <p>An Crud application which perform create delete edit and update the user </p>
+                    <div class="used">
+                        <span>HTML 5</span> <span>CSS</span>  <span>Javascript</span>
+                        <span>Bootstrap</span> 
+                    </div>
+                    <div style="display: flex; justify-content: space-around; width: 100;">
+                        <a style="color: red;" href="https://idyllic-sorbet-7fbe14.netlify.app/" target="_blank"><i class="uil uil-link">Live</i></a>
+                        <a style="color: blue;" href="https://github.com/shivaa-1/CRUD-operation.git" target="_blank"><i class="uil uil-github">Github</i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="wp">
+                <img src="https://tse2.mm.bing.net/th?id=OIP.HlcYb7oWJOGNX0EVJOfwIgHaNL&pid=Api&P=0&h=180" alt="">
+                <div class="layer">
+                    <h4>Whether with Countries</h4>
+                    <em>Dec,2022-April,2023</em>
+                    <p>This is weather with countries name app in which data is taken from api</p>
+                    <div class="used">
+                        <span>HTML 5</span> <span>CSS</span>  <span>Javascript</span>
+                        <span>Bootstrap</span>
+                    </div>
+                    <div style="display: flex; justify-content: space-around; width: 100;">
+                        <a style="color: red;" href="https://ephemeral-cactus-b8d3c2.netlify.app/" target="_blank"><i class="uil uil-link">Live</i></a>
+                        <a style="color: blue;" href="https://github.com/shivaa-1/Whether-with-Countries-Name.git" target="_blank"><i class="uil uil-github">Github</i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="wp">
+                <img src="https://tse2.mm.bing.net/th?id=OIP.pRVw_UkhLqjWDq1E-8YOOAHaEK&pid=Api&P=0&h=180" alt=""/>
+                <div class="layer">
+                    <h4>Netflix UI</h4>
+                    <em>Dec,2022-April,2023</em>
+                    <p>This is Netflix UI.</p>
+                    <div class="used">
+                        <span>HTML 5</span> <span>CSS</span>  <span>Javascript</span>
+                    </div>
+                    <div style="display:flex; justify-content: space-around; width: 100;">
+                        <a style="color: red;" class="m-2 px-3" href="https://ubiquitous-tarsier-252d23.netlify.app/" target="_blank"><i class="uil uil-link">Live</i></a>
+                        <a style="color: blue;" class="m-2 px-3" href="https://github.com/shivaa-1/Netflix-clone.git" target="_blank"><i class="uil uil-github">Github</i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- contact me  -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="col-contact-1">
+                <h1 class="sub-title">Contact me</h1>
+                <p><i class="uil uil-envelope"></i>sharma.shivam2110@gmail.com</p>
+                <p><i class="uil uil-mobile-android"></i>91-9650260757</p>
+
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/shiva-sharma-2-1-1-0-/"><i class="uil uil-linkedin"></i></a>
+                <a href="https://github.com/shivaa-1"><i class="uil uil-github"></i></a>
+            </div>
+            <a href="https://drive.google.com/file/d/16bYho15yKs3Whjop7gbX5T2p4wJEc8JX/view" target="_blank" class="btn btn1">Resume</a>
+            </div>
+            <div class="col-contact-2">
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="copyright">
+    <p>Copyright &#169 2023-Shivam Sharma</p>
+</div>
+
+<a href="#header"><i class="uil uil-arrow-circle-up"></i></a>
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>
